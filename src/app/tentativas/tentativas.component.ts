@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TentativasComponent implements OnInit {
 
+  public heart: string = ''
+  public emptyheart: string = ''
+
   constructor() { }
 
   ngOnInit(): void {
